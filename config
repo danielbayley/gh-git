@@ -1,0 +1,15 @@
+[include]
+  path = .gitconfig
+  path = configuration/credentials.ini
+  path = configuration/init.ini
+
+  path = /usr/local/opt/mnml-git/mnml.ini
+  path = /usr/local/opt/dracula-git/gitconfig
+
+[core] # https://github.com/github/gitignore
+  excludesFile = .gitignore
+  excludesFile = ignore/macos.ini
+  excludesFile = ignore/node.ini
+  excludesFile = ignore/ruby.ini
+
+  hooksPath = .github/hooks
